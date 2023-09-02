@@ -16,6 +16,9 @@ if(MSVC)
   add_compile_definitions(_USE_MATH_DEFINES)
 endif()
 
+# Disable warning that causes this package to fail builds
+set(FPHSA_NAME_MISMATCHED True)
+
 ################################################################################
 # Find ament packages and libraries for ament and system dependencies
 ################################################################################
