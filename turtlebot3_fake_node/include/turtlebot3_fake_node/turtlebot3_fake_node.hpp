@@ -17,7 +17,7 @@
 #ifndef TURTLEBOT3_FAKE_NODE__TURTLEBOT3_FAKE_NODE_HPP_
 #define TURTLEBOT3_FAKE_NODE__TURTLEBOT3_FAKE_NODE_HPP_
 
-#include <tf2/LinearMath/Quaternion.h>
+#include <tf2/LinearMath/Quaternion.hpp>
 #include <chrono>
 
 #include <rclcpp/rclcpp.hpp>
